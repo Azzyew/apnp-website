@@ -15,30 +15,20 @@ function App() {
 				<Suspense fallback={<p>Carregando...</p>}>
 					<div className="content">
 						<Switch>
-							<Route path="/">
-								<Dashboard />
-							</Route>
-							<Route path="/aps">
-								<Ads />
-							</Route>
-							<Route path="/english">
-								<English />
-							</Route>
-							<Route path="/literature">
-								<Literature />
-							</Route>
-							<Route path="/spanish">
-								<Spanish />
-							</Route>
-							<Route path="/web-prog">
-								<WebProg />
-							</Route>
+
+							<Route exact path="/" component={Dashboard} />
+							<Route path="/aps" component={Aps} />
+							<Route path="/english" component={English} />
+							<Route path="/literature" component={Literature} />
+							<Route path="/spanish" component={Spanish} />
+							<Route path="/web-prog" component={WebProg} />
+              
 						</Switch>
 					</div>
 				</Suspense>
 
 				<div className="side-menu">
-					<Link to="/aps" className="menu-link">
+					<Link to="/aps" className="menu-link-aps">
 						APS
 					</Link>
 					<Link to="/english" className="menu-link">

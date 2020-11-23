@@ -1,3 +1,61 @@
+:root {
+  --light-green: #99B89B;
+  --light-pink: #FECEA8;
+  --medium-pink:  #FF847C;
+  --strong-pink: #E84A5F;
+  --dark-grey: #2A363B;
+}
+
 .App {
   text-align: center;
+}
+
+body {
+  background-color: var(--dark-grey);
+  color: var(--strong-pink);
+}
+
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 4vh;
+  display: flex;
+  justify-content: center;
+}
+
+.side-menu {
+  margin-top: -18vh;
+  height: 115vh;
+  width: 10vw;
+  background-color: var(--medium-pink);
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-link {
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: var(--dark-grey);
+  padding-top: 10vh;
+}
+
+.menu-link:hover {
+  font-size: 120%;
+  color: black;
+}
+
+.menu-link-aps {
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: var(--dark-grey);
+  padding-top: 20vh;
+}
+
+.menu-link-aps:hover {
+  font-size: 120%;
+  color: black;
 }

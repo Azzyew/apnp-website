@@ -1,12 +1,9 @@
 import React from "react";
-import Page from "src/layouts/page";
 
 const Dashboard= () => {
 
     return (
-      <Page>
-  
-      </Page>
+      <h1>PÁGINA INICIAL</h1>
     );
   }
   
