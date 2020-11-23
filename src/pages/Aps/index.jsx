@@ -1,9 +1,9 @@
 import React from "react";
 
-const Ads = () => {
+const Aps = () => {
     return(
         <h1> </h1>
     );
 }
 
-export default Ads;
+export default Aps;
