@@ -1,7 +1,6 @@
 import React, { Suspense } from "react";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Aps from "./pages/Aps";
 import Dashboard from "./pages/Dashboard";
 import English from "./pages/English";
 import Literature from "./pages/Literature";
@@ -17,7 +16,6 @@ function App() {
 						<Switch>
 
 							<Route exact path="/" component={Dashboard} />
-							<Route path="/aps" component={Aps} />
 							<Route path="/english" component={English} />
 							<Route path="/literature" component={Literature} />
 							<Route path="/spanish" component={Spanish} />
