@@ -1,11 +1,11 @@
 import React from "react";
-import lorem from "../../utils/mock";
+import indirectSpeech from './components';
 
 const English = () => {
     return(
         <div className="content">
-            <h1>Inglês</h1>
-            <p>{lorem}</p>
+            <h1>Inglês - Indirect Speech</h1>
+            <indirectSpeech />
         </div>
     );
 }
