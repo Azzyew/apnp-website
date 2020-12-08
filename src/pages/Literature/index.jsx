@@ -1,11 +1,11 @@
 import React from "react";
-import lorem from "../../utils/mock";
+import autorImg from "../../utils/autorImg.png";
 
 const Literature = () => {
     return(
         <div className="content">
-            <h1>Literatura</h1>
-            <p>{lorem}</p>
+            <h1>Parnasianismo</h1>
+            <img src={autorImg} alt="autor parnasiano"/>
         </div>
     );
 }

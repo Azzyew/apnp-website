@@ -5,30 +5,14 @@ import Dashboard from "./pages/Dashboard";
 import English from "./pages/English";
 import Literature from "./pages/Literature";
 import Spanish from "./pages/Spanish";
-import WebProg from "./pages/WebProg";
 
 function App() {
 	return (
 		<Router>
 			<div className="App">
 				<Suspense fallback={<p>Carregando...</p>}>
-					<div className="content">
-						<Switch>
 
-							<Route exact path="/" component={Dashboard} />
-							<Route path="/english" component={English} />
-							<Route path="/literature" component={Literature} />
-							<Route path="/spanish" component={Spanish} />
-							<Route path="/web-prog" component={WebProg} />
-              
-						</Switch>
-					</div>
-				</Suspense>
-
-				<div className="side-menu">
-					<Link to="/aps" className="menu-link-aps">
-						APS
-					</Link>
+				<div className="header">
 					<Link to="/english" className="menu-link">
 						Inglês
 					</Link>
@@ -38,10 +22,21 @@ function App() {
 					<Link to="/spanish" className="menu-link">
 						Espanhol
 					</Link>
-          <Link to="/web-prog" className="menu-link">
-						Prog. Web
-					</Link>
 				</div>
+				
+					<div className="content">
+						<Switch>
+
+							<Route exact path="/" component={Dashboard} />
+							<Route path="/english" component={English} />
+							<Route path="/literature" component={Literature} />
+							<Route path="/spanish" component={Spanish} />
+              
+						</Switch>
+					</div>
+				</Suspense>
+
+				
 			</div>
 		</Router>
 	);
