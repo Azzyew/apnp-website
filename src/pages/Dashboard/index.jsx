@@ -3,7 +3,11 @@ import React from "react";
 const Dashboard= () => {
 
     return (
-      <h1>PÁGINA INICIAL</h1>
+      <>
+      <h1>Projeto integrador da APNP</h1>
+      <br/>
+      <h3>Integrantes: João Marcelo e Laisa</h3>
+      </>
     );
   }
   

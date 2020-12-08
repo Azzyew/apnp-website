@@ -3,9 +3,7 @@ import React from "react";
 const English = () => {
     return(
         <div className="content">
-            <h1>Indirect Speech</h1>
-
-            
+            <h1>Indirect Speech</h1>    
             <br/>
 
             <div className="english">
