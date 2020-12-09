@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "../../utils/pic.png";
+import pic from "../../img/pic.png";
 
 const Dashboard= () => {
 

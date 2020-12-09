@@ -60,3 +60,18 @@ h1 {
   text-align: justify;
   padding: 2vh 5vw;
 }
+
+p {
+  padding: 0vh 8vw; 
+}
+
+.english a {
+  text-decoration: none;
+  color: #60282e;
+}
+
+.english a:hover {
+  font-size: 110%;
+  color: #60282e;
+  text-decoration: underline;
+}
