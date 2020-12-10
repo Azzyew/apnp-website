@@ -10,8 +10,9 @@ const Literature = () => {
             <br/>
 
             <h1>Podcast Simbolismo</h1>
-            <audio className="podcast">
-                <source src={podcast}></source>
+            <audio controls>
+                <source src={podcast} type="audio/mpeg"/>
+                Este navegador não possui suporte para áudio.
             </audio>
         </div>
     );
