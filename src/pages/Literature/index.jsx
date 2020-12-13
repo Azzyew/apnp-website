@@ -6,7 +6,7 @@ const Literature = () => {
     return(
         <div className="content">
             <h1>Parnasianismo</h1>
-            <img src={autorImg} alt="autor parnasiano"/>
+            <img src={autorImg} alt="autor parnasiano" className="autor"/>
             <br/>
 
             <h1>Podcast Simbolismo</h1>
