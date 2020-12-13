@@ -75,3 +75,8 @@ p {
   color: #60282e;
   text-decoration: underline;
 }
+
+.autor {
+    max-width: 100%;
+    height: auto;
+}
